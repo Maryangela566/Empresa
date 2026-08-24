@@ -36,7 +36,7 @@ h1, h2, h3, p, div {
 
 
 # Título da página
-st.title("Empresas Parceiras")
+st.title("🏢 Empresas Parceiras")
 
 
 # Criação das três colunas
