@@ -1,7 +1,5 @@
 import streamlit as st
 
-import streamlit as st
-
 # Fundo preto + texto branco
 st.markdown("""
 <style>
