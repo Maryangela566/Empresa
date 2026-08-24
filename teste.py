@@ -1,30 +1,31 @@
 import streamlit as st
 
-Fundo preto + texto branco
+import streamlit as st
 
+# Fundo preto + texto branco
 st.markdown("""
-
+<style>
 .stApp {
-background-color: black;
-color: white;
+    background-color: black;
+    color: white;
 }
-/* Botões */
+
 .stLinkButton a {
-background-color: #262730;
-color: white !important;
-text-decoration: none;
+    background-color: #262730;
+    color: white !important;
 }
 
 .stLinkButton a:hover {
     background-color: #ff4b4b;
-    color: white !important;
 }
 
 h1, h2, h3, p, div {
     color: white;
 }
 </style>
+""", unsafe_allow_html=True)
 
+st.title("Empresas Parceiras")
 
 """, unsafe_allow_html=True)
 
